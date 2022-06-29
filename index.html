@@ -17,14 +17,13 @@
 				<div class="content">
 					<div class="inner">
 						<h1>Fazril Syaveral Hillaby</h1>
-						<p><strong>Software Engineering at <a href="https://threeindex-corp.com">Three Index Corporation</a></strong></p>
+						<p>Junior Developer at <strong><a href="https://fndex-corp.com">Findex Corp.</a></strong></p>
 						<p>I'm currently interested in End-To-End AI Dev and Framework Dev</p>
 					</div>
 				</div>
 				<nav>
 					<ul>
 						<li><a href="#info">Information</a></li>
-						<li><a href="#secret">Secret Message</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -41,11 +40,7 @@
 						<li><a href="https://twitter.com/fzrilsh" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://t.me/fzrilsh" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>
 						<li><a href="https://instagram.com/fzrilsh_" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-<<<<<<< HEAD
-						<li><a href="https://github.com/FazrilDev" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-=======
 						<li><a href="https://github.com/fzrilsh" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
->>>>>>> 9b40cfd (Babi)
 					</ul>
 					<hr />
 					<h3>my certificate</h3>
@@ -57,54 +52,6 @@
 						<li>Solo Learn - <a onclick="showCert('/certificate/sololearn/js.jpg')">JavaScript</a></li>
 						<li>Solo Learn - <a onclick="showCert('/certificate/sololearn/py.jpg')">Python</a></li>
 					</ul>
-				</article>
-				<article id="secret">
-					<header>
-						<p style="opacity: 1; font-size: 10px; font-color: #ffffff;"><a href="/" id="navigator">Dashboard</a> <b>›</b> Secret Message</p>
-					</header>
-					<h2 class="major">Secret Message</h2>
-					<form method="post" action="/api/sm/add">
-						<div class="fields">
-							<div class="field half">
-								<label for="name">Your Secret Name</label>
-								<input type="text" name="name" id="namechat" placeholder="Anonymous"/>
-							</div>
-							<div class="field">
-								<label for="message">Message</label>
-								<textarea name="message" id="messagechat" rows="4" placeholder="hi, i've crush on you" required></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="primary" /></li>
-							<li><input type="reset" value="Reset" /></li>
-							<li><small><a href="#allmsg">Check All Message</a></small></li>
-						</ul>
-					</form>
-				</article>
-				<article id="allmsg">
-					<header>
-						<p style="opacity: 1; font-size: 10px; font-color: #ffffff;"><a href="/" id="navigator">Dashboard</a> <b>›</b> <a href="#secret" id="navigator">Secret Message</a> <b>›</b> Message</p>
-					</header>
-					<div class="table-wrapper">
-						<table>
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Message</th>
-									<th>Date</th>
-								</tr>
-							</thead>
-							<tbody id="tablechat">
-							<% db.forEach(data => { %>
-								<tr>
-									<td><%= data.name %></td>
-									<td><%= data.message %></td>
-									<td><%= data.date %></td>
-								</tr>
-							<% }) %>
-							</tbody>
-						</table>
-					</div>
 				</article>
 			</div>
 			<footer id="footer">
